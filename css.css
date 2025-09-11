@@ -22,6 +22,15 @@ a
 {
     margin:0%;
 }
+.box div
+{
+width: 15 rem;
+height: 15 rem;
+padding: 5rem;
+margin: 5rem;
+display: inline-block;
+text-align: center;
+}
 figure
 {
     background-color: rgb(234, 79, 13);
@@ -39,6 +48,12 @@ img
 {
     background-color: aliceblue;
     color:rgb(45, 44, 44);
+}
+#branco a
+{
+    padding: 2rem;
+    background-color: rgb(10, 141, 54);
+    color: aliceblue;
 }
 section
 {
