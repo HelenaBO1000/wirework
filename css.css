@@ -22,19 +22,31 @@ a
 {
     margin:0%;
 }
-.box div
+.caixas
 {
-width: 15 rem;
-height: 15 rem;
-padding: 5rem;
-margin: 5rem;
-display: inline-block;
-text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 25rem;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.caixas div
+{
+height: auto;
+width: 15rem;
+gap: 1rem;
+}
+body
+{
+    text-align: center;
 }
 figure
 {
     background-color: rgb(234, 79, 13);
-    height: 50rem;
+    height: 45rem;
     color: aliceblue;
     text-align: center;
 }
@@ -42,28 +54,34 @@ img
 {
     width: 100%;
     height: 40rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 #branco
 {
     background-color: aliceblue;
     color:rgb(45, 44, 44);
+    text-align: center;
+}
+.link
+{
+    padding: 1rem;
+    background-color: rgb(10, 141, 54);
+    text-align: center;
+    margin: 2rem auto;
+    width: 10rem;
 }
 #branco a
 {
-    padding: 2rem;
-    background-color: rgb(10, 141, 54);
     color: aliceblue;
+    font-size: 1rem;
 }
 section
 {
     background-color: rgb(45, 44, 44);
     color:aliceblue;
-    display: grid;
 }
-
-section div
+footer
 {
-    display: flex;
-    width:15rem;
+    height: 1rem ;
+    padding: 1rem;
 }
