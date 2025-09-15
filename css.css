@@ -82,6 +82,15 @@ section
 }
 footer
 {
-    height: 1rem ;
-    padding: 1rem;
+    height: 13em ;
+    padding: 13rem;
+    background-color:  rgb(10, 141, 54);
+    color: aliceblue;
+}
+i
+{
+    background-color: rgb(234, 79, 13);
+    color: aliceblue;
+    padding: 2rem;
+    font-size: 3rem;
 }
